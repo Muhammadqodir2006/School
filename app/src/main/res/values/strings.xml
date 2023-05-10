@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">School</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="log_in_to_nyour_account">Log in to\nyour account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot password ?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="do_not_have_an_account">Do not have an account ?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="create_nan_account">Create\nan account</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+</resources>

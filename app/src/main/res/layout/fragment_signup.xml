@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_gray"
+    tools:context=".screen.SignupFragment">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+<!--        <de.hdodenhof.circleimageview.CircleImageView-->
+<!--            android:id="@+id/sign_up_back_arrow"-->
+<!--            android:layout_width="42dp"-->
+<!--            android:layout_height="42dp"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:clickable="true"-->
+<!--            android:src="@drawable/arrow_back" />-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="42dp"
+            android:text="@string/create_nan_account"
+            android:textSize="42sp"
+
+            android:textStyle="bold" />
+
+
+        <androidx.appcompat.widget.AppCompatEditText
+            style="@style/Widget.Material3.TextInputEditText.FilledBox"
+            android:layout_width="match_parent"
+            android:layout_marginTop="42dp"
+            android:maxLines="1"
+            android:id="@+id/sign_up_first_name_edit_text"
+            android:layout_marginHorizontal="16dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_shape"
+            android:hint="@string/first_name" />
+        <androidx.appcompat.widget.AppCompatEditText
+            style="@style/Widget.Material3.TextInputEditText.FilledBox"
+            android:layout_width="match_parent"
+            android:layout_marginTop="12dp"
+            android:maxLines="1"
+            android:id="@+id/sign_up_last_name_edit_text"
+            android:layout_marginHorizontal="16dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_shape"
+            android:hint="@string/last_name" />
+        <androidx.appcompat.widget.AppCompatEditText
+            style="@style/Widget.Material3.TextInputEditText.FilledBox"
+            android:layout_width="match_parent"
+            android:layout_marginTop="12dp"
+            android:maxLines="1"
+            android:id="@+id/sign_up_email_edit_text"
+            android:layout_marginHorizontal="16dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_shape"
+            android:hint="@string/email" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            style="@style/Widget.Material3.TextInputEditText.FilledBox"
+            android:layout_width="match_parent"
+            android:layout_marginTop="14dp"
+            android:maxLines="1"
+            android:id="@+id/sign_up_password_edit_text"
+            android:layout_marginHorizontal="16dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_shape"
+            android:hint="@string/password" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/sign_up_button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginVertical="12dp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/sign_up"
+            android:textStyle="bold"
+            app:cornerRadius="18dp" />
+
+
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</ScrollView>
